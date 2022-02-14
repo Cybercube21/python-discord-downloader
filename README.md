@@ -14,8 +14,16 @@ pip3 install -r requirements.txt
 ```
 
 ## Usage
-To start, you first have to add a channel ID in "channel = client.get_channel()".
+To start, you first have to add a ".env" file and insert you token like this:
+```
+# .env
+DISCORD_TOKEN="<Insert bot token here>"
+```
 
+Then you'll have to change the channel ID in the downloader.py like this:\
+```
+channel = client.get_channel(<Insert Channel ID here>)
+```
 It will scan the whole channel and download each attachement on default.\
 You can set a limit for that aswell, just read the comment below the channel ID stuff.
 
@@ -28,4 +36,3 @@ Join my [Discord Server](https://discord.gg/4XYcD2Jk54) or DM me: Cybercube#0499
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
-
