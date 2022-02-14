@@ -25,3 +25,7 @@ python3 ./downloader.py
 ```
 ## Contact 
 Join my [Discord Server](https://discord.gg/4XYcD2Jk54) or DM me: Cybercube#0499
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
+
