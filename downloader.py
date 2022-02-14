@@ -42,7 +42,7 @@ async def on_ready():
             meme = requests.get(attachment.url, allow_redirects=True)
 
             # Write attachement in file with the same filename
-            open("memes/" + str(index) + "-" + filename, 'wb').write(meme.content)
+            open("downloads/" + str(index) + "-" + filename, 'wb').write(meme.content)
             print(filename + " downloaded!                         Download NR: " + str(index))
 
             # Count download counter up
