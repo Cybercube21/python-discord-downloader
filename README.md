@@ -24,8 +24,11 @@ Then you'll have to change the channel ID in the downloader.py like this:\
 ```
 channel = client.get_channel(<Insert Channel ID here>)
 ```
-It will scan the whole channel and download each attachement on default.\
-You can set a limit for that aswell, just read the comment below the channel ID stuff.
+On default it will scan the last 100 messages and download the attachements, if there are some.\
+You can increase that limit easily if you change following line like this:
+```
+messages = await channel.history(limit=6969).flatten()
+```
 
 Create a folder called "downloads" and just execute the script:
 ```shell
