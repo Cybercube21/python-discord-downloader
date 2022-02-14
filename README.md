@@ -2,7 +2,7 @@
 # Python discord downloader
 
 
-This is a little discord bot i wrote for downloading all attachements in one channel on start of the bot.
+This is a little discord bot i wrote for downloading attachements in one channel on start of the bot.
 
 ## Installation
 
