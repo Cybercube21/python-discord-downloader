@@ -14,7 +14,7 @@ pip3 install -r requirements.txt
 ```
 
 ## Usage
-To start, you first have to add a ".env" file and insert you token like this:
+To start, you first have to add a ".env" file and insert your token like this:
 ```
 # .env
 DISCORD_TOKEN="<Insert bot token here>"
