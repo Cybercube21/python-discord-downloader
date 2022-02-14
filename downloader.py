@@ -21,10 +21,10 @@ async def on_ready():
     index = 0
     message_counter = 0
 
-    # Enter Channel to collect memes from
+    # Enter Channel ID to collect memes from
     channel = client.get_channel()
 
-    # Add "limit=6969" for example to set a history limit in channel.history()
+    # Add "limit=6969" for example to set a message history limit in channel.history()
     messages = await channel.history().flatten()
 
     # For all message
